@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head profile="http://www.w3.org/2005/10/profile">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/main.scss" />
+
+    <title>itemCart</title>
+
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png" />
+  </head>
+  <body>
+    <div class="header">
+      <input
+        class="inputBox"
+        placeholder="상호명 또는 상품명을 입력해주세요."
+      />
+      <button class="inputBtn">확인</button>
+    </div>
+
+    <div class="container">
+      <div class="itemList"></div>
+    </div>
+    <div class="itemCart"></div>
+
+    <div class="pages-button">
+      <button class="left--button"><<</button>
+      <div class="page--button"></div>
+      <button class="right--button">>></button>
+    </div>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
